@@ -26,6 +26,7 @@
   align-items: center;
   gap: 20px;
 }
+
 .imageContainer {
   flex: 1;
   aspect-ratio: 1/1;
@@ -68,6 +69,7 @@
 .fashion {
   background-color: rgb(94, 92, 180);
 }
+
 .postTitle {
   font-style: 18px;
   font-weight: 500;
@@ -83,4 +85,11 @@
 
 .date {
   color: gray;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .container {
+    display: none;
+  }
 }
