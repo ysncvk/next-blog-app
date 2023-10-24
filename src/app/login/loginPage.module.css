@@ -40,3 +40,19 @@
 .socialButton:nth-child(3) {
     background-color: orangered;
 }
+
+@media screen and (max-width:768px) {
+    .wrapper {
+        padding: 50px 100px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .wrapper {
+        padding: 30px 100px;
+    }
+
+    .socialButton {
+        font-weight: 400;
+    }
+}
