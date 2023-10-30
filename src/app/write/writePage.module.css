@@ -1,0 +1,45 @@
+.container {
+
+}
+
+.editor {
+    display:flex;
+    gap: 20px;
+    height: 700px;
+    flex-direction: column;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.textArea {
+    width: 100%;
+
+}
+
+
+.input  {
+    padding: 50px;
+    font-size: 64px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.input::placeholder {
+    color:cornflowerblue;
+}
+
+.publish {
+    position:absolute;
+    top:30px;
+    right:20px;
+    padding: 10px 20px;
+    border:none;
+    background-color: #1a8917;
+    color:white;
+    cursor:pointer;
+    border-radius: 20px;
+}

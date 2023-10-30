@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from "react";
 import styles from "./authLinks.module.css";
 import Link from "next/link";
@@ -5,7 +7,7 @@ import Link from "next/link";
 export default function AuthLinks() {
   const [open, setOpen] = useState(false);
   //temporary
-  const status = "notauthenticated";
+  const status = "authenticated";
 
   return (
     <>
